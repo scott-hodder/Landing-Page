@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 16px;
+
+}
+.headerlinks {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-end; 
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-size: 48px;
+}
+.topsection {
+    display: flex;
+    margin-top: 60px;
+    padding: 36px;
+    justify-content: center;
+}
+.leftofimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-grow: 1;
+}
+.right-image {
+    height: 350px;
+    width: 300px;
+    align-self: center;
+    border-radius: 25px;
+}
+.container1 {
+    margin-right: 200px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}   
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    color: #1f2937;   
+}
+
+.image {
+    height: 200px;
+    width: 200px; 
+    border-radius: 25px;
+}
+img {max-width:100%;}
+
+.quote {
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    color: #152957;
+    background-color: #e5e7eb;
+    padding: 48px;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 25px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+}
